@@ -12,6 +12,9 @@
 		4098F1A82C12D1EA00CF9C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4098F1A72C12D1EA00CF9C79 /* Assets.xcassets */; };
 		4098F1AB2C12D1EA00CF9C79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4098F1AA2C12D1EA00CF9C79 /* Preview Assets.xcassets */; };
 		4098F1B22C12D2F000CF9C79 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4098F1B12C12D2F000CF9C79 /* HomeView.swift */; };
+		4098F1B42C12D96C00CF9C79 /* FunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4098F1B32C12D96C00CF9C79 /* FunView.swift */; };
+		4098F1B62C12DA3B00CF9C79 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4098F1B52C12DA3B00CF9C79 /* ContactView.swift */; };
+		4098F1B82C12DA4E00CF9C79 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4098F1B72C12DA4E00CF9C79 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		4098F1A72C12D1EA00CF9C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4098F1AA2C12D1EA00CF9C79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4098F1B12C12D2F000CF9C79 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4098F1B32C12D96C00CF9C79 /* FunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunView.swift; sourceTree = "<group>"; };
+		4098F1B52C12DA3B00CF9C79 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		4098F1B72C12DA4E00CF9C79 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			children = (
 				4098F1A32C12D1E500CF9C79 /* BelissaMobileAppApp.swift */,
 				4098F1A52C12D1E500CF9C79 /* ContentView.swift */,
+				4098F1B52C12DA3B00CF9C79 /* ContactView.swift */,
+				4098F1B72C12DA4E00CF9C79 /* AboutView.swift */,
+				4098F1B32C12D96C00CF9C79 /* FunView.swift */,
 				4098F1B12C12D2F000CF9C79 /* HomeView.swift */,
 				4098F1A72C12D1EA00CF9C79 /* Assets.xcassets */,
 				4098F1A92C12D1EA00CF9C79 /* Preview Content */,
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4098F1B42C12D96C00CF9C79 /* FunView.swift in Sources */,
 				4098F1B22C12D2F000CF9C79 /* HomeView.swift in Sources */,
 				4098F1A62C12D1E500CF9C79 /* ContentView.swift in Sources */,
+				4098F1B62C12DA3B00CF9C79 /* ContactView.swift in Sources */,
+				4098F1B82C12DA4E00CF9C79 /* AboutView.swift in Sources */,
 				4098F1A42C12D1E500CF9C79 /* BelissaMobileAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

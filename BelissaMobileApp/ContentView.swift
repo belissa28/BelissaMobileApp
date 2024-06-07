@@ -10,8 +10,32 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView{
+            HomeView()
+                .tabItem{
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+            FunView()
+                .tabItem{
+                    Image(systemName: "face.smiling")
+                    Text("Fun")
+                }
+            AboutView()
+                .tabItem{
+                    Image(systemName: "book")
+                    Text("About me")
+                }
+            ContactView()
+                .tabItem{
+                    Image(systemName: "mail")
+                    Text("Contact me")
+                }
+            
+            
+        
+        }
+        
     }
 }
 
