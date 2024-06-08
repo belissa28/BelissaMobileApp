@@ -9,7 +9,12 @@ import SwiftUI
 
 struct FunView: View {
     var body: some View {
-        Text("This is the fun page!")
+        ZStack{
+            Color(.black)
+                .ignoresSafeArea()
+            Text("Fun facts about me")
+                .foregroundColor(Color.white)
+        }
     }
 }
 
