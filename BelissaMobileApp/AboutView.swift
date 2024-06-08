@@ -9,8 +9,12 @@ import SwiftUI
 
 struct AboutView: View {
     var body: some View {
-        Text("Come learn about me.")
-    }
+        ZStack{
+            Color(.black)
+                .ignoresSafeArea()
+            Text("Come learn about me")
+                .foregroundColor(Color.white)
+        }    }
 }
 
 struct AboutView_Previews: PreviewProvider {

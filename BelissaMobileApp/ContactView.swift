@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContactView: View {
     var body: some View {
-        Text("Contact me!")
-    }
+        ZStack{
+            Color(.black)
+                .ignoresSafeArea()
+            Text("Let's talk")
+                .foregroundColor(Color.white)
+        }    }
 }
 
 struct ContactView_Previews: PreviewProvider {
